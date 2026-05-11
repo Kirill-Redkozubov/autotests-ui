@@ -36,4 +36,3 @@ def chromium_page_with_state(initialize_browser_state, playwright: Playwright) -
     
     yield context.new_page()
     browser.close()
-    
