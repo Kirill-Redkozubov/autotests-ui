@@ -8,4 +8,5 @@ dependencies = [
     "black>=25.11.0",
     "playwright>=1.59.0",
     "pytest>=8.4.2",
+    "pytest-playwright>=0.7.1",
 ]
