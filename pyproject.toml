@@ -9,4 +9,5 @@ dependencies = [
     "playwright>=1.59.0",
     "pytest>=8.4.2",
     "pytest-playwright>=0.7.1",
+    "pytest-rerunfailures>=16.0.1",
 ]
