@@ -52,7 +52,7 @@ class CoursesListPage(BasePage):
                                   min_score: str,
                                   estimated_time: str
                                   ):
-        expect(self.course_image_nth(index)).to_be_visible()
+        expect(self.course_image.nth(index)).to_be_visible()
         
         #Обратите внимание на использование метода nth, он позволяет получить локатор по индексу
         expect(self.course_title.nth(index)).to_be_visible()
